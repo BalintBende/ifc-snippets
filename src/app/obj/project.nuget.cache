@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "okvI/JxvOJVEx4x2W/xxEp6ExajG9QlOLbeA3OHWUlcgPX7SoNYgu/4IVVzJ4s9tN+LbjVk90WU0rxflSIjdpw==",
+  "success": true,
+  "projectFilePath": "/Users/balintbende/Developer/other/Lounge/IFC/ifc-snippets/src/app/app.fsproj",
+  "expectedPackageFiles": [
+    "/Users/balintbende/.nuget/packages/fsharp.core/6.0.1/fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

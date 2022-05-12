@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ifc-snippets", "ifc-snippets\ifc-snippets.fsproj", "{D2ACE847-46EC-498A-9854-C7552FD9E897}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "app", "app\app.fsproj", "{1B672241-6964-458B-A2F1-5A5C9D73397A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2ACE847-46EC-498A-9854-C7552FD9E897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ACE847-46EC-498A-9854-C7552FD9E897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ACE847-46EC-498A-9854-C7552FD9E897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ACE847-46EC-498A-9854-C7552FD9E897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B672241-6964-458B-A2F1-5A5C9D73397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B672241-6964-458B-A2F1-5A5C9D73397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B672241-6964-458B-A2F1-5A5C9D73397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B672241-6964-458B-A2F1-5A5C9D73397A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
