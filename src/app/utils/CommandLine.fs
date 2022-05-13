@@ -1,6 +1,7 @@
 namespace app.utils
+open CmdLineTypes
 
-module CmdLine = 
+module CmdLine =
   let rec parseCmdLineRec args optsAccum =
     match args with
     //empty list, parsing is done

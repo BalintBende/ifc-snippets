@@ -6,5 +6,5 @@ module Program =
   let main args =
     printfn "Application is started."
     
-    parseCmdLine args
+    let params = parseCmdLine args
     0

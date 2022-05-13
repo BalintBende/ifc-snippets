@@ -1,6 +1,5 @@
 namespace app.utils
 
-[<AutoOpen>]
 module CmdLineTypes = 
   type CmdLineOptions = {
     wallCreation: bool
