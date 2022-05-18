@@ -8,6 +8,10 @@
 
     <ItemGroup>
         <Compile Include="Federation.fs" />
+        <Folder Include="resources" />
+        <Compile Include="Create.fs" />
+        <Compile Include="Report.fs" />
+        <Folder Include="utils" />
     </ItemGroup>
 
     <ItemGroup>

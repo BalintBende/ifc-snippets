@@ -11,15 +11,11 @@ module CmdLine =
     | "-w"::xs ->
       let newOptsAccum = { optsAccum with wallCreation=true }
       parseCmdLineRec xs newOptsAccum
-    //match hierarchy
-    | "-h"::xs ->
-      let newOptsAccum = { optsAccum with hierarchy=true }
-      parseCmdLineRec xs newOptsAccum
-    //match hierarchy
+    //match federation
     | "-f"::xs ->
       let newOptsAccum = { optsAccum with federation=true }
       parseCmdLineRec xs newOptsAccum
-    //match hierarchy
+    //match space report
     | "-s"::xs ->
       let newOptsAccum = { optsAccum with spaceReport=true }
       parseCmdLineRec xs newOptsAccum
@@ -32,7 +28,6 @@ module CmdLine =
     // defaults
     let defaultOptions = {
       wallCreation = false;
-      hierarchy = false;
       federation = false;
       spaceReport = false;
     }
